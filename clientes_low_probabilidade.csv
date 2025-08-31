@@ -1,0 +1,120 @@
+id_cliente,produto_visualizado,hist_navegacao,campanha,dias_ultima_compra,produto_comprado,probabilidade_compra,taxa_compra
+Daniel Cardoso,Nike KD 14 (Kevin Durant),Recomendação,1,59,0,16.5% chance de compra,0.2916666666666667
+Marcelo Teixeira,Reebok Question Mid (Allen Iverson),Recomendação,0,21,1,11.3% chance de compra,0.4
+Vinícius Almeida,Air Jordan 1,Redes-Sociais,0,178,0,20.0% chance de compra,0.38095238095238093
+Vinícius Almeida,Air Jordan 11,Anúncio,1,125,0,11.0% chance de compra,0.3103448275862069
+Kevin Durant,Air Jordan 11,Redes-Sociais,1,104,0,12.0% chance de compra,0.3103448275862069
+Devin Booker,Reebok Question Mid (Allen Iverson),Página de Oferta,1,127,1,17.5% chance de compra,0.4
+LeBron James,Under Armour Curry 8,Página de Oferta,1,82,0,10.0% chance de compra,0.4166666666666667
+LeBron James,Reebok Question Mid (Allen Iverson),Busca,1,185,0,6.5% chance de compra,0.4
+Marcelo Teixeira,Air Jordan 1,Busca,0,88,0,11.5% chance de compra,0.38095238095238093
+Jimmy Butler,Air Jordan 1,Página de Oferta,0,76,0,14.5% chance de compra,0.38095238095238093
+Luka Dončić,Puma Clyde All-Pro,Recomendação,1,77,0,25.7% chance de compra,0.35294117647058826
+João Vitor Silva,Nike Kobe 6 Protro,Página de Oferta,1,196,0,11.0% chance de compra,0.56
+Pedro Souza,Adidas Harden Vol. 5,Recomendação,1,161,0,14.4% chance de compra,0.6086956521739131
+Vinícius Almeida,Air Jordan 1,Redes-Sociais,0,2,0,21.0% chance de compra,0.38095238095238093
+João Vitor Silva,Air Jordan 11,Página de Oferta,0,83,1,27.0% chance de compra,0.3103448275862069
+João Vitor Silva,Nike KD 14 (Kevin Durant),Página de Oferta,1,80,0,14.5% chance de compra,0.2916666666666667
+Marcelo Teixeira,Air Jordan 11,Redes-Sociais,0,124,0,15.5% chance de compra,0.3103448275862069
+Jayson Tatum,Air Jordan 1,Redes-Sociais,1,96,0,12.0% chance de compra,0.38095238095238093
+Giannis Antetokounmpo,Under Armour Curry 8,Página de Oferta,0,170,0,28.0% chance de compra,0.4166666666666667
+Stephen Curry,Adidas Harden Vol. 5,Busca,0,70,0,10.0% chance de compra,0.6086956521739131
+Rafael Torres,Nike KD 14 (Kevin Durant),Busca,0,171,0,20.0% chance de compra,0.2916666666666667
+Luka Dončić,Nike KD 14 (Kevin Durant),Email Marketing,0,16,0,21.5% chance de compra,0.2916666666666667
+Stephen Curry,Nike KD 14 (Kevin Durant),Recomendação,0,2,0,22.5% chance de compra,0.2916666666666667
+Pedro Souza,Under Armour Curry 8,Redes-Sociais,0,43,0,19.0% chance de compra,0.4166666666666667
+Daniel Cardoso,Air Jordan 11,Recomendação,0,120,0,18.8% chance de compra,0.3103448275862069
+João Vitor Silva,Nike KD 14 (Kevin Durant),Redes-Sociais,0,18,0,15.5% chance de compra,0.2916666666666667
+Jayson Tatum,Reebok Question Mid (Allen Iverson),Página de Oferta,1,153,0,10.0% chance de compra,0.4
+Gabriel Martins,Reebok Question Mid (Allen Iverson),Recomendação,0,94,0,19.8% chance de compra,0.4
+Gabriel Martins,Puma Clyde All-Pro,Anúncio,0,8,0,28.5% chance de compra,0.35294117647058826
+Vinícius Almeida,Reebok Question Mid (Allen Iverson),Página de Oferta,0,2,0,9.5% chance de compra,0.4
+João Vitor Silva,New Balance OMN1S,Busca,0,61,0,19.5% chance de compra,0.5714285714285714
+Gabriel Martins,Under Armour Curry 8,Recomendação,1,184,0,12.5% chance de compra,0.4166666666666667
+Nikola Jokić,Nike Kobe 6 Protro,Redes-Sociais,0,159,0,27.5% chance de compra,0.56
+Stephen Curry,Nike KD 14 (Kevin Durant),Anúncio,1,196,0,22.5% chance de compra,0.2916666666666667
+Luka Dončić,Nike KD 14 (Kevin Durant),Busca,1,146,0,10.5% chance de compra,0.2916666666666667
+Bruno Oliveira,Nike LeBron 18,Email Marketing,0,80,0,15.5% chance de compra,0.4090909090909091
+Giannis Antetokounmpo,Air Jordan 1,Anúncio,1,21,0,18.5% chance de compra,0.38095238095238093
+João Vitor Silva,Air Jordan 1,Redes-Sociais,1,37,0,12.0% chance de compra,0.38095238095238093
+Kevin Durant,Adidas Harden Vol. 5,Redes-Sociais,0,142,0,16.5% chance de compra,0.6086956521739131
+João Vitor Silva,Under Armour Curry 8,Recomendação,1,16,0,22.0% chance de compra,0.4166666666666667
+Stephen Curry,Under Armour Curry 8,Recomendação,0,176,0,12.0% chance de compra,0.4166666666666667
+LeBron James,Air Jordan 1,Página de Oferta,0,9,0,12.5% chance de compra,0.38095238095238093
+Vinícius Almeida,Nike KD 14 (Kevin Durant),Busca,1,158,0,5.5% chance de compra,0.2916666666666667
+Jayson Tatum,Nike LeBron 18,Redes-Sociais,0,65,0,11.5% chance de compra,0.4090909090909091
+Giannis Antetokounmpo,Nike KD 14 (Kevin Durant),Página de Oferta,0,167,0,19.0% chance de compra,0.2916666666666667
+Daniel Cardoso,Puma Clyde All-Pro,Busca,0,129,0,23.0% chance de compra,0.35294117647058826
+Daniel Cardoso,Puma Clyde All-Pro,Anúncio,0,185,0,24.5% chance de compra,0.35294117647058826
+Kevin Durant,Nike KD 14 (Kevin Durant),Busca,1,18,0,13.0% chance de compra,0.2916666666666667
+João Vitor Silva,New Balance OMN1S,Página de Oferta,0,82,0,25.0% chance de compra,0.5714285714285714
+Gabriel Martins,New Balance OMN1S,Redes-Sociais,0,118,0,19.5% chance de compra,0.5714285714285714
+Nikola Jokić,Under Armour Curry 8,Página de Oferta,0,87,0,9.0% chance de compra,0.4166666666666667
+Luka Dončić,Reebok Question Mid (Allen Iverson),Recomendação,1,37,0,9.5% chance de compra,0.4
+Kevin Durant,Air Jordan 1,Anúncio,0,68,0,13.8% chance de compra,0.38095238095238093
+Nikola Jokić,Air Jordan 11,Página de Oferta,1,44,0,15.5% chance de compra,0.3103448275862069
+Caio Moreira,Reebok Question Mid (Allen Iverson),Busca,0,113,0,16.0% chance de compra,0.4
+Bruno Oliveira,Reebok Question Mid (Allen Iverson),Recomendação,1,101,1,28.9% chance de compra,0.4
+Lucas Andrade,Air Jordan 11,Anúncio,1,56,0,9.0% chance de compra,0.3103448275862069
+Daniel Cardoso,Adidas Harden Vol. 5,Redes-Sociais,0,39,1,14.5% chance de compra,0.6086956521739131
+Vinícius Almeida,Air Jordan 11,Busca,1,163,0,20.5% chance de compra,0.3103448275862069
+Daniel Cardoso,Puma Clyde All-Pro,Email Marketing,1,140,0,22.0% chance de compra,0.35294117647058826
+Stephen Curry,Air Jordan 1,Busca,0,41,1,22.0% chance de compra,0.38095238095238093
+Daniel Cardoso,Nike Kobe 6 Protro,Recomendação,0,187,0,28.5% chance de compra,0.56
+Kevin Durant,Reebok Question Mid (Allen Iverson),Busca,0,139,0,18.0% chance de compra,0.4
+Pedro Souza,New Balance OMN1S,Recomendação,1,37,0,23.5% chance de compra,0.5714285714285714
+Marcelo Teixeira,New Balance OMN1S,Redes-Sociais,0,64,0,11.0% chance de compra,0.5714285714285714
+Gabriel Martins,Under Armour Curry 8,Recomendação,0,137,0,11.0% chance de compra,0.4166666666666667
+Jayson Tatum,Under Armour Curry 8,Página de Oferta,1,105,0,10.5% chance de compra,0.4166666666666667
+Jimmy Butler,Nike KD 14 (Kevin Durant),Email Marketing,0,15,0,21.5% chance de compra,0.2916666666666667
+Rafael Torres,Reebok Question Mid (Allen Iverson),Recomendação,0,72,0,10.3% chance de compra,0.4
+Marcelo Teixeira,Nike LeBron 18,Recomendação,1,187,0,12.5% chance de compra,0.4090909090909091
+Devin Booker,Air Jordan 11,Página de Oferta,1,138,0,16.5% chance de compra,0.3103448275862069
+João Vitor Silva,Air Jordan 11,Email Marketing,0,21,0,9.5% chance de compra,0.3103448275862069
+Jayson Tatum,Nike KD 14 (Kevin Durant),Página de Oferta,0,79,1,28.0% chance de compra,0.2916666666666667
+Bruno Oliveira,Nike KD 14 (Kevin Durant),Página de Oferta,1,130,0,7.0% chance de compra,0.2916666666666667
+Devin Booker,Air Jordan 1,Email Marketing,1,87,0,28.5% chance de compra,0.38095238095238093
+Kevin Durant,Nike Kobe 6 Protro,Redes-Sociais,1,24,0,14.5% chance de compra,0.56
+Nikola Jokić,Nike LeBron 18,Email Marketing,0,185,0,23.0% chance de compra,0.4090909090909091
+Marcelo Teixeira,Air Jordan 11,Email Marketing,1,2,0,27.0% chance de compra,0.3103448275862069
+Lucas Andrade,Puma Clyde All-Pro,Redes-Sociais,1,194,0,14.5% chance de compra,0.35294117647058826
+Bruno Oliveira,Adidas Harden Vol. 5,Redes-Sociais,0,24,0,17.0% chance de compra,0.6086956521739131
+Jimmy Butler,Air Jordan 11,Email Marketing,1,83,0,13.0% chance de compra,0.3103448275862069
+Rafael Torres,Under Armour Curry 8,Anúncio,1,92,0,14.0% chance de compra,0.4166666666666667
+Nikola Jokić,Adidas Harden Vol. 5,Recomendação,0,33,0,17.4% chance de compra,0.6086956521739131
+Marcelo Teixeira,Air Jordan 11,Recomendação,0,142,0,12.3% chance de compra,0.3103448275862069
+Bruno Oliveira,Air Jordan 11,Recomendação,0,74,0,18.9% chance de compra,0.3103448275862069
+Kevin Durant,Nike LeBron 18,Email Marketing,0,38,0,4.5% chance de compra,0.4090909090909091
+Pedro Souza,Reebok Question Mid (Allen Iverson),Página de Oferta,0,180,0,16.0% chance de compra,0.4
+Gabriel Martins,Puma Clyde All-Pro,Busca,1,148,0,18.0% chance de compra,0.35294117647058826
+Jayson Tatum,Puma Clyde All-Pro,Recomendação,1,184,0,9.0% chance de compra,0.35294117647058826
+Nikola Jokić,Reebok Question Mid (Allen Iverson),Página de Oferta,1,145,0,11.5% chance de compra,0.4
+Marcelo Teixeira,Air Jordan 1,Redes-Sociais,0,139,0,27.0% chance de compra,0.38095238095238093
+Pedro Souza,Nike Kobe 6 Protro,Página de Oferta,1,191,0,12.0% chance de compra,0.56
+Daniel Cardoso,Nike LeBron 18,Email Marketing,1,43,0,19.5% chance de compra,0.4090909090909091
+Luka Dončić,Air Jordan 11,Redes-Sociais,1,171,0,20.0% chance de compra,0.3103448275862069
+Stephen Curry,Nike KD 14 (Kevin Durant),Busca,0,189,0,16.5% chance de compra,0.2916666666666667
+Marcelo Teixeira,Under Armour Curry 8,Recomendação,0,105,0,13.5% chance de compra,0.4166666666666667
+Nikola Jokić,Nike LeBron 18,Email Marketing,0,58,0,8.5% chance de compra,0.4090909090909091
+Rafael Torres,Nike LeBron 18,Busca,1,58,0,11.5% chance de compra,0.4090909090909091
+Jimmy Butler,Air Jordan 11,Página de Oferta,1,198,0,18.0% chance de compra,0.3103448275862069
+Bruno Oliveira,Nike LeBron 18,Recomendação,0,167,0,19.0% chance de compra,0.4090909090909091
+Pedro Souza,Reebok Question Mid (Allen Iverson),Busca,1,181,0,7.0% chance de compra,0.4
+João Vitor Silva,Reebok Question Mid (Allen Iverson),Busca,1,163,1,12.5% chance de compra,0.4
+Marcelo Teixeira,Under Armour Curry 8,Anúncio,1,22,0,20.5% chance de compra,0.4166666666666667
+Rafael Torres,Adidas Harden Vol. 5,Busca,0,21,0,9.0% chance de compra,0.6086956521739131
+Vinícius Almeida,Under Armour Curry 8,Redes-Sociais,0,177,0,12.5% chance de compra,0.4166666666666667
+Marcelo Teixeira,New Balance OMN1S,Busca,1,15,0,21.5% chance de compra,0.5714285714285714
+Bruno Oliveira,Nike KD 14 (Kevin Durant),Email Marketing,1,142,0,17.5% chance de compra,0.2916666666666667
+Rafael Torres,Under Armour Curry 8,Busca,0,109,1,29.5% chance de compra,0.4166666666666667
+Pedro Souza,Air Jordan 1,Redes-Sociais,0,118,0,27.0% chance de compra,0.38095238095238093
+Marcelo Teixeira,Air Jordan 11,Email Marketing,1,136,0,20.0% chance de compra,0.3103448275862069
+Daniel Cardoso,Nike LeBron 18,Anúncio,1,150,0,20.0% chance de compra,0.4090909090909091
+Luka Dončić,Air Jordan 11,Email Marketing,0,29,0,4.5% chance de compra,0.3103448275862069
+Stephen Curry,Nike Kobe 6 Protro,Redes-Sociais,1,39,0,13.0% chance de compra,0.56
+Caio Moreira,Reebok Question Mid (Allen Iverson),Anúncio,0,116,0,22.9% chance de compra,0.4
+Luka Dončić,New Balance OMN1S,Anúncio,0,57,0,12.5% chance de compra,0.5714285714285714
+Vinícius Almeida,Air Jordan 11,Email Marketing,0,25,0,4.5% chance de compra,0.3103448275862069
+Stephen Curry,Nike LeBron 18,Anúncio,1,88,0,8.5% chance de compra,0.4090909090909091
+Daniel Cardoso,Nike LeBron 18,Anúncio,1,59,0,7.0% chance de compra,0.4090909090909091
+Jayson Tatum,Puma Clyde All-Pro,Recomendação,1,200,0,14.5% chance de compra,0.35294117647058826
