@@ -5,15 +5,14 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>FIAlmes</title>
-        <link rel="stylesheet" href="./style_css/style.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
         <form id="form">
-            <div class="field">
-                <label for="barra">O que você deseja perguntar para a IA?</label>
-                <input/>
-                
-                <button type="submit">Enviar</button>
+            <label for="barra" class="label">O que você deseja perguntar para a IA?</label>
+            <div class="linha-input">
+                 <input id="barra" type="text" placeholder="Digite aqui..." />
+                 <button type="submit">Enviar</button>
             </div>
         </form>
     </body>
