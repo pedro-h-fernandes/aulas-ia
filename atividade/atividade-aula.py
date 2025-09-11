@@ -50,13 +50,13 @@ df['campanha'] = camp_raw.isin({'1', 'sim', 'yes', 'true'}).astype(int)
 
 # === Seleção de features ===
 col_numericas = []
-if 'Dias desde a última compra' in df.columns:
-    col_numericas.append('Dias desde a última compra')
+if 'dias_ultima_compra' in df.columns:
+    col_numericas.append('dias_ultima_compra')
 
 col_binarias = ['campanha']
 
 col_categoricas = []
-for col in ['Produto Visualizado', 'Histórico de Navegação']:
+for col in ['produto_visualizado', 'hist_navegacao']:
     if col in df.columns and df[col].dtype == object:
         col_categoricas.append(col)
 
@@ -74,6 +74,8 @@ X[col_binarias] = df[col_binarias]
 if col_categoricas:
     dummies = pd.get_dummies(df[col_categoricas], drop_first=True)
     X = pd.concat([X, dummies], axis=1)
+
+print(X.head())
 
 # Imputar NaNs numéricos se houver
 X = X.fillna(X.median(numeric_only=True))
@@ -97,9 +99,71 @@ modelo.fit(X_train, y_train)
 idx_pos = list(modelo.classes_).index(1)
 y_prob = modelo.predict_proba(X)[:, idx_pos]
 df['prob_compra'] = y_prob
-df['Probabilidade de Compra'] = (df['prob_compra']*100).map(lambda v: f"{v:.1f}% chance de compra")
+df['probabilidade_compra'] = (df['prob_compra']*100).map(lambda v: f"{v:.1f}% chance de compra")
+
+views = df.groupby('produto_visualizado').size().reset_index(name='qtd_vistos')
+
+# Contar quantas vezes cada produto foi comprado
+compras = df[df['produto_comprado'] == 1].groupby('produto_visualizado').size().reset_index(name='qtd_compras')
+
+# Unir os dois dataframes
+taxa_produto = pd.merge(views, compras, on='produto_visualizado', how='left')
+
+print(taxa_produto.head())
+# Preencher produtos sem compras com 0
+taxa_produto['qtd_compras'] = taxa_produto['qtd_compras'].fillna(0)
+
+# Calcular a taxa de compra
+taxa_produto['taxa_compra'] = taxa_produto['qtd_compras'] / taxa_produto['qtd_vistos']
+
+df = df.merge(taxa_produto[['produto_visualizado', 'taxa_compra']], on='produto_visualizado', how='left')
 
 df.to_excel('atividade/clientes_com_probabilidades.xlsx', index=False)
+
+
+# DECIDINDO QUAL PRODUTO DEVE SAIR DE ESTOQUE E QUAL FICAR
+# A ideia é usar a taxa de compra para decidir qual produto deve sair de estoque e qual deve ficar.
+# Produtos com maior taxa de compra são mais populares e, portanto, devem ser mantidos em estoque.
+
+# Ordenar os produtos pela taxa de compra em ordem decrescente
+df_produtos_ordenados = df.sort_values(by='taxa_compra')
+
+produto_sair = df_produtos_ordenados.iloc[0]['produto_visualizado']
+print(f"O produto que deve sair de estoque é: {produto_sair} com uma taxa de compra de {df_produtos_ordenados.iloc[0]['taxa_compra']:.2f}")
+
+df_novos_produtos = pd.DataFrame({
+    'produto_visualizado': [
+        'Nike Zoom Freak 3 (Giannis Antetokounmpo)',
+        'Adidas Dame 7 (Damian Lillard)',
+        'Jordan Zion 1 (Zion Williamson)',
+        'Under Armour Embiid One (Joel Embiid)',
+        'Anta KT6 (Klay Thompson)'
+    ]
+})
+
+
+print(X.head())
+# Copiar média das features dos produtos mais vendidos para criar dados simulados
+features_medianas = X.median().to_dict()
+print(features_medianas)
+
+# pd.DataFrame([features_medianas]).to_json('atividade/features_medianas.json', indent=4)
+X_novos = pd.DataFrame([features_medianas] * len(df_novos_produtos))
+X_novos = X_novos.loc[:, X.columns]  # garantir alinhamento de colunas
+print(X_novos.head())
+
+# Prever probabilidade de compra dos novos produtos
+df_novos_produtos['probabilidade_prevista'] = modelo.predict_proba(X_novos)[:, 1]
+
+print(df_novos_produtos.head())
+
+# Ordenar do mais promissor para o menos
+df_novos_produtos = df_novos_produtos.sort_values(by='probabilidade_prevista', ascending=False)
+# print(df_novos_produtos.head())
+
+
+
+
 
 # # === Segmentos ===
 # alta = df[df['prob_compra'] >= 0.70].copy()
